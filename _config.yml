@@ -1,6 +1,6 @@
 # Site settings
-title: Project Pages
-description: "An Integrated Scientific Blogging Template"
+title: 4I Labs
+description: "Ideate, Innovate, Initiate, Incubate"
 url: "https://eman-pars.github.io"
 
 
@@ -8,9 +8,9 @@ url: "https://eman-pars.github.io"
 
 # Secondary Parameters
 baseurl: "/eman-pars.github.io"
-header-img: img/home-bg.jpg
+header-img: img/logos/logo.png
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: /eman-pars.github.io/img/logos/logo.png
 
 # Tertiary Parameters
 github_username:  projectpages
