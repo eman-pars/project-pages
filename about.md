@@ -1,9 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "Why use Project Pages?"
+description: "4I Labs"
 header-img: "img/home-bg.jpg"
 ---
 
-Project Pages is a research blog tool that allows you to quickly show your latest results to an advisor, collaborators or your mom.
+4I Labs setup under IIT Guwahati is furnished with very advanced equipments and infrastructure to help the students solve challenging problems.
+
+It was setup in DD/MM/YYYY to promote 
 	
