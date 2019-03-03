@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Members"
-description: "Collaborators working on this project."
+description: "Faculty & Students working on projects"
 header-img: "img/home-bg.jpg"
 ---
 <hr>
@@ -13,6 +13,14 @@ header-img: "img/home-bg.jpg"
 	<h1>{{ member.name }}</h1>
 	
 	<h2>{{ member.role }}</h2>
+
+	{% if member.project %}
+	<h2> Project : {{ member.project }} </h2>
+	{% endif %}
+
+	{% if member.team %}
+	<h2> Team : {{ member.team }} </h2>
+	{% endif %}
 	
 	{% if member.github %} 
 	<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
