@@ -1,0 +1,23 @@
+---
+layout: page
+title: "Projects"
+description: "Projects under 4I Labs"
+header-img: "img/home-bg.jpg"
+---
+
+<h1>Projects</h1>
+
+
+{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
+	
+<div class="card" style="width: 100%;">
+	<img class="card-img-top" src="..." alt="{{ page.title }}"/>
+	  	<div class="card-body">
+		    <h5 class="card-title">{{ page.title }}</h5>
+		    <h6 class="card-subtitle mb-2 text-muted">{{ page.desctiption }}</h6>
+		    <p class="card-text">{{ page.text }}</p>
+		    <a href="{{ page.url | prepend: site.baseurl }}" class="card-link">Page</a>
+		    <a href="{{ page.docs }}" class="card-link">Docs</a>
+  		</div>
+</div>
+{% endif %}{% endif %}{% endfor %}
