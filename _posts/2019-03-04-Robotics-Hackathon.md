@@ -12,4 +12,4 @@ subtitle:  	See the cool products made by students in the hackathon
 
 Recently the hackathon was organised by Robotics Club, IITG.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/7cEAo5dNoUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/7cEAo5dNoUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

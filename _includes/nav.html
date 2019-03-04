@@ -1,4 +1,4 @@
-<!-- Navigation -->
+Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -32,7 +32,7 @@
 
 
 
-                <li class="dropdown">
+<!--                 <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
@@ -41,9 +41,15 @@
                             </li>
                             {% endif %}{% endif %}{% endfor %}
                         </ul>
-                </li>
+                </li> -->
 
-                {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Documentation" %}
+<!--                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Documentation" %}
+                    <li>
+                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    </li>
+                {% endif %}{% endif %}{% endfor %} -->
+
+                {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Projects" %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
@@ -56,11 +62,11 @@
                 {% endif %}{% endif %}{% endfor %}
 
 
-                {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Community Impact" %}
+<!--                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Community Impact" %}
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                {% endif %}{% endif %}{% endfor %}
+                {% endif %}{% endif %}{% endfor %} -->
 
 
                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title == "Search" %}
@@ -99,4 +105,4 @@
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
                 {% endif %}{% endif %}{% endfor %}
-            </ul> -->
+            </ul>
