@@ -8,18 +8,18 @@ header-img: "img/home-bg.jpg"
 
 
 {% for member in site.data.members %} {% if member.visible == true %}
-	<div class="media">
-	  <div class="media-left media-top">
-	    <img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
-	  </div>
+	<div class="media justify-content-between">
+	 	<div class="media-left media-top">
+	    	<img src="{{ member.img }}" class="media-object" style="margin-top:0px; margin-bottom:5px; margin-right:10px;  display: inline; width:150px !important">
+	  	</div>
 
-	  <div class="media-body text-right">
-	    <h1 class="media-heading">{{ member.name }}</h1>
-	    <h3> {{ member.role }} </h2>
+	  	<div class="media-body text-right">
+	    	<h1 class="media-heading">{{ member.name }}</h1>
+	    	<h3> {{ member.role }} </h2>
 
-		{% if member.project %}
-		<h4> Project : {{ member.project }} </h2>
-		{% endif %}
+			{% if member.project %}
+			<h4> Project : {{ member.project }} </h2>
+			{% endif %}
 
 			{% if member.team %}
 			<h4> Team : {{ member.team }} </h2>
@@ -35,16 +35,17 @@ header-img: "img/home-bg.jpg"
 			<span class="social-share-googleplus"><a href="{{ member.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 			{% endif %}
 			
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">More</button>
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#bio">More</button>
 			<div id="bio" class="collapse">
 				{% if member.bio %} 
 				{{ member.bio }}
 				{% endif %}
 			</div>
-			</br>
-
-	  </div>
+		</div>
 	</div>
+
+	<br/>
+	<br/>
 {% endif %}{% endfor %}
 
 
