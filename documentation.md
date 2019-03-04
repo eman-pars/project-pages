@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Documentations"
+title: "Documentation"
 description: "Docs for projects"
 header-img: "img/home-bg.jpg"
 ---
